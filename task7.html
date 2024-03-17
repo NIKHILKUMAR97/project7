@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{
+            border:2px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+  background-color: #96D4D4;
+}
+div {
+  width:30%;  
+  display:inline-block;
+}
+        </style>
+</head>
+<body>
+    <h1 style="background-color:green; text-align: center;" >NIKHIL'S KITCHEN</h1>
+    <h1 style="background-color:grey; text-align: center;" >MENU</h1> 
+    <table style="width:100%">
+        <tr>
+            <th>SOUPS</th>
+            <th>FASTFOOD</th>
+            <th>STARTERS</th>
+            <th>BIRYANI'S</th>
+        </tr>
+        <tr>
+            <td> CHICKEN SPINACH SOUP-129.00</td>
+            <td>EGG NOODLES-189.00</td>
+            <td>TANDOORI CHICKEN-279.00</td>
+            <td>VEG BIRYANI-150.00</td>
+        </tr>
+        <tr>
+            <td>CHICKEN MANCHOW SOUP-129.00</td>
+            <td>CHICKEN NOODLES-189.00</td>
+            <td>GRILL CHICKEN-279.00</td>
+            <td>EGG BIRYANI-150.00</td>
+        </tr>
+        <tr>
+                <td>TOMATO SOUP-80.00</td>
+                <td>EGG FRIED RICE-170.00</td>
+                <td>BBQ CHICKEN-289.00</td>
+                <td>MUSHROOM BIRYANI-170.00</td>
+        </tr>
+        <tr>
+            <td>GARLIC SOUP-120.00</td>
+            <td>CHICKEN FRIED RICE-220</td>
+            <td>CHICKEN 65-289.00</td>
+            <td>CHICKEN BIRYANI-220.00</td>
+        </tr>
+        <tr>
+            <td>HOT & SOUR SOUP-100.00</td>
+            <td>CHICKEN MANCHURIAN-180.00</td>
+            <td>CHILLI CHICKEN-259.00</td>
+            <td>MUTTON BIRYANI-260.00</td>
+        </tr>
+
+    </table> 
+    <div style="background-color:#FFF4A3;">
+    <h2>SOUPS</h2>
+    <form style= "background-color:orange">
+        <input type="checkbox" id="soup" name="soup" value="CHICKEN SPINACH SOUP">
+        <label for="soup"> CHICKEN SPINACH SOUP</label><br>
+        <input type="checkbox" id="soup" name="soup" value="CHICKEN MANCHOW SOUP">
+        <label for="soup"> CHICKEN MANCHOW SOUP</label><br>
+        <input type="checkbox" id="soup" name="soup" value="GARLIC SOUP">
+        <label for="soup"> GARLIC SOUP</label><br>
+        <input type="checkbox" id="soup" name="soup" value="TOMATO SOUP">
+        <label for="soup"> TOMATO SOUP</label><br>
+        <input type="checkbox" id="soup" name="soup" value="HOT & SOUR SOUP">
+        <label for="soup"> HOT & SOUR SOUP</label><br>
+        <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="15">
+</form>    
+</div>
+
+    <div style="background-color:#FFC0C7;">
+      <h2>FASTFOOD</h2>
+      <form >
+          <input type="checkbox" id="fastfood" name="fastfood" value="EGG NOODLES">
+          <label for="fastfood"> EGG NOODLES</label><br>
+          <input type="checkbox" id="fastfood" name="fastfood" value="CHICKEN NOODLES">
+          <label for="fastfood"> CHICKEN NOODLES</label><br>
+          <input type="checkbox" id="fastfood" name="fastfood" value="EGG FRIED RICE">
+          <label for="fastfood"> EGG FRIED RICE</label><br>
+          <input type="checkbox" id="fastfood" name="fastfood" value="CHICKEN FRIED RICE">
+          <label for="fastfood"> CHICKEN FRIED RICE</label><br>
+          <input type="checkbox" id="fastfood" name="fastfood" value="CHICKEN MANCHURICAN">
+          <label for="fastfood"> CHICKEN MANCHURIAN</label><br>
+          <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="15">
+      </form>
+      </div>
+      <div style="background-color:#D9EEE1;">
+    <h2>STARTERS</h2>
+      <form>
+          <input type="checkbox" id="starters" name="starters" value="TANDOORI CHICKEN">
+          <label for="starters"> TANDOORI CHICKEN</label><br>
+          <input type="checkbox" id="starters" name="starters" value="GRILL CHICKEN">
+          <label for="starters"> GRILL CHICKEN</label><br>
+          <input type="checkbox" id="starters" name="starters" value="BBQ CHICKEN">
+          <label for="starters"> BBQ CHICKEN</label><br>
+          <input type="checkbox" id="starters" name="starters" value="CHICKEN 65">
+          <label for="starters"> CHICKEN 65</label><br>
+          <input type="checkbox" id="starters" name="starters" value="CHILLI CHICKEN">
+          <label for="starters"> CHILLI CHICKEN</label><br>
+          <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="15">
+
+</form>
+</div>
+<div style="background-color:#FFF4A3;">
+    <h2>BIRYANI'S</h2>
+      <form>
+          <input type="checkbox" id="biryani" name="biryani" value="VEG BIRYANI">
+          <label for="biryani"> VEG BIRYANI</label><br>
+          <input type="checkbox" id="biryani" name="biryani" value="EGG BIRYANI">
+          <label for="biryani"> EGG BIRYANI</label><br>
+          <input type="checkbox" id="biryani" name="biryani" value="MUSHROOM BIRYANI">
+          <label for="biryani"> MUSHROOM BIRYANI</label><br>
+          <input type="checkbox" id="biryani" name="biryani" value="CHICKEN BIRYANI">
+          <label for="biryani"> CHICKEN BIRYANI</label><br>
+          <input type="checkbox" id="biryani" name="biryani" value="MUTTON BIRYANI">
+          <label for="biryani"> MUTTON BIRYANI</label><br>
+          <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="15"><br><br>
+</form>
+</div>
+<h3>SUGGESTIONS:</h3>
+<form action="./HTML/order.html">
+    <textarea name="message" rows="5" cols="40"></textarea>
+    <br><br>
+    <input type="submit" value="ORDER NOW">
+  </form> 
+</body>
+</html>
